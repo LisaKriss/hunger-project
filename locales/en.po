@@ -1,0 +1,32 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+#: app/templates/partials/components/navigation.njk:22
+msgid "Page 1"
+msgstr ""
+
+#: app/templates/partials/components/navigation.njk:27
+msgid "Page 2"
+msgstr ""
+
+#: app/pages/index.njk:10
+msgid "Section 1"
+msgstr ""
+
+#: app/pages/index.njk:14
+msgid "Section 2"
+msgstr ""
+
+#: app/pages/index.njk:18
+msgid "Section 3"
+msgstr ""
+
+#: standard input:1
+msgctxt "Data: metas.json"
+msgid "Page title"
+msgstr ""
+
+#: standard input:1
+msgctxt "Data: metas.json"
+msgid "Page description"
+msgstr ""

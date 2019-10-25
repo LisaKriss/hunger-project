@@ -1,0 +1,65 @@
+{
+  "whynaga": {
+    "reason": [
+      {
+        "src": "/images/why_naga_customer.svg",
+        "title": "Dedicated support throughout the user journey"
+      },
+      {
+        "src": "/images/why_naga_pencil.svg",
+        "title": "Selection of investments products to reach your goals"
+      },
+      {
+        "src": "/images/why_naga_tools.svg",
+        "title": "All the tools needed to manage and diversify your portfolio"
+      },
+      {
+        "src": "/images/why_naga_chat.svg",
+        "title": "Learn from, chat with, and auto-copy others in our community"
+      },
+      {
+        "src": "/images/why_naga_education.svg",
+        "title": "Focus on education with webinars, offline events, a blog and more"
+      }
+    ],
+
+    "partner": [
+      {
+        "src": "/images/naga_partner_1.svg",
+        "title": "Register your account",
+        "text": "Open a partner account and provide necessary details to choose your partnership plan"
+      },
+      {
+        "src": "/images/naga_partner_2.svg",
+        "title": "Promote NAGA",
+        "text": "Get access to NAGA’s materials from a personal account manager and begin promoting"
+      },
+      {
+        "src": "/images/naga_partner_3.svg",
+        "title": "Get real-time payouts",
+        "text": "Enjoy an unlimited earning potential with NAGA Partners"
+      }
+      ],
+
+    "partnership": [
+      {
+        "title": "Online Affiliate",
+        "text": "With this plan you can earn up to $1,200 CPA for every qualified trader you refer to NAGA"
+      },
+      {
+        "title": "Introducing Broker",
+        "text": "Basic plan for introducing NAGA to your clients while getting paid for every active client you bring"
+      },
+      {
+        "title": "Refer a Partner",
+        "text": "Earn up to 40% net revenue share & lifetime commissions, including NAGA Coins (NGC) and NAGA Shares (N4G)"
+      }
+    ]
+
+
+  }
+}
+
+
+
+

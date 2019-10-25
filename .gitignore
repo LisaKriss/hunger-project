@@ -1,0 +1,39 @@
+# macOS files.
+.DS_Store
+profile
+
+# Ignore SASS cache.
+.sass-cache
+
+# Ignore SublimeText project files.
+.sublime-project
+.sublime-workspace
+
+# Ignore VSCode project files.
+
+# Ignore .idea project files.
+.idea
+
+# Ignore Packages.
+node_modules
+bower_components
+app/assets/vendor
+jspm_packages
+*.log
+
+# Ignore Generated Files.
+dev
+stag
+dist
+_images
+testing
+.publish
+
+# Ignore Passwords.
+.secrets.json
+
+# Ignore gettext .po and .mo files.
+**/*.mo
+# **/*.po
+
+.env
