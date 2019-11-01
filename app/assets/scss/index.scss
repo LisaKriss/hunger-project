@@ -210,17 +210,6 @@ body {
   display: flex;
   padding: 50px 0 70px;
   overflow: hidden;
-
-  &_button {
-    max-width: 560px;
-    width: 100%;
-    background: #E8C300;
-    margin: 5px auto;
-    @media screen and ($max-xs) {
-      max-width: 220px;
-    }
-  }
-
   &__block {
     display: flex;
     align-items: center;
@@ -228,7 +217,6 @@ body {
     @media screen and ($max-md) {
       flex-wrap: wrap;
     }
-
     &_wrapper {
       text-align: center;
     }
