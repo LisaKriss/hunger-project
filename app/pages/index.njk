@@ -6,10 +6,179 @@
     <link href="css/index.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ "/vendor/bootstrap/dist/css/bootstrap.min.css" | assetLink }}" type="text/css">
+    <link rel="stylesheet" type="text/css" href="{{ "/vendor/slick-carousel/slick/slick.css" | assetLink }}"/>
+    <link rel="stylesheet" type="text/css" href="{{ "/vendor/slick-carousel/slick/slick-theme.css" | assetLink }}"/>
 </head>
 <body>
 <section class="hero">
-
+    <div class="container">
+        <div class="hero__block">
+            <div class="hero__block_main">
+                <div class="hero__block_main_subtitle">RESTAURANT</div>
+                <div class="hero__block_main_title">HUNGRY PEOPLE</div>
+                <img src="/images/yellow_line.svg" alt="" class="block_line">
+                <div class="hero__block_buttons">
+                    <a href="#" class="button hero__block_buttons_yellow">BOOK TABLE</a>
+                    <a href="#" class="button hero__block_buttons_transparent">EXPLORE</a>
+                </div>
+                <a href="#" class="hero__block_button-down">
+                    <img src="/images/hero_down-btn.svg" alt="" class="hero__button-down_icon">
+                </a>
+            </div>
+            <div class="hero__block_icons">
+                <a href="#" class="hero__icons_facebook"><img src="/images/facebook_icon.svg" alt=""></a>
+                <a href="#" class="hero__icons_twitter"><img src="/images/twitter_icon.svg" alt=""></a>
+                <a href="#" class="hero__icons_instagram"><img src="/images/instagram_icon.svg" alt=""></a>
+            </div>
+        </div>
+    </div>
 </section>
+<section class="about-us">
+    <div class="container">
+        <div class="about-us__block">
+            <div class="block__info">
+                <div class="block__info_title">
+                    ABOUT US
+                </div>
+                <img src="/images/yellow_line.svg" alt="" class="block_line">
+                <div class="block__info_subtitle">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a,
+                    tempor magna.
+                </div>
+                <div class="block__info_text">
+                    Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula.
+                    Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem.
+                    Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.
+                </div>
+            </div>
+            <img src="/images/about-us_img.png" alt="" class="block__image">
+        </div>
+    </div>
+</section>
+<section class="masterchef">
+    <div class="container">
+        <div class="masterchef__block_wrapper">
+            <div class="block_header">
+                OUR TEAM
+            </div>
+            <div class="masterchef__block">
+                <div class="block__info">
+                    <div class="block__info_title">
+                        MASTERCHEF
+                    </div>
+                    <img src="/images/yellow_line.svg" alt="" class="block_line">
+                    <div class="block__info_subtitle">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a,
+                        tempor magna.
+                    </div>
+                    <div class="block__info_text">
+                        Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices
+                        ligula.
+                        Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec
+                        sem.
+                        Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.
+                    </div>
+                </div>
+                <img src="/images/master-chef_img.png" alt="" class="block__image">
+            </div>
+        </div>
+    </div>
+</section>
+<section class="booking-form">
+    <div class="container">
+        <div class="booking-form__block_wrapper">
+            <div class="booking-form__block">
+                <div class="block__info">
+                    <div class="block__info_title">
+                        BOOK A TABLE
+                    </div>
+                    <img src="/images/yellow_line.svg" alt="" class="block_line">
+                    <div class="block__info_form">
+                        <div class="block__info_form_column">
+                            <input type="text" class="block__info_form_input" placeholder="Name">
+                            <input type="tel" class="block__info_form_input" placeholder="Phone">
+                            <input type="text" class="block__info_form_input" placeholder="Date(mm/dd)">
+                        </div>
+                        <div class="block__info_form_column">
+                            <input type="email" class="block__info_form_input" placeholder="Email">
+                            <select class="block__info_form_input" placeholder="People">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                                <option>6</option>
+                            </select>
+                            <input type="time" class="block__info_form_input" placeholder="Time">
+                        </div>
+                    </div>
+                    <a href="#" class="button booking-form_button">BOOK NOW</a>
+                </div>
+                <img src="/images/booking-form_img.png" class="block__image">
+            </div>
+            <div class="booking-form_bottom">Mon - Fri: 8PM - 10PM, Sat - Sun: 8PM - 3AM, Phone: +40 729 131 637/+40 726 458 782</div>
+        </div>
+    </div>
+</section>
+<section class="specialties">
+    <div class="container">
+        <div class="specialties__block_wrapper">
+            <div class="block_header">
+                SPECIALTIES
+            </div>
+            <div class="specialties__block">
+                <div class="block__info">
+                    <div class="block__info_title">
+                        CHOCOLATE PANCAKES
+                    </div>
+                    <img src="/images/yellow_line.svg" alt="" class="block_line">
+                    <div class="block__info_subtitle">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a,
+                        tempor magna.
+                    </div>
+                    <div class="block__info_text">
+                        Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices
+                        ligula.
+                        Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec
+                        sem.
+                        Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.
+                    </div>
+                </div>
+                <img src="/images/specialties_img.png" alt="" class="block__image">
+            </div>
+        </div>
+    </div>
+</section>
+<section class="events">
+    <div class="container">
+        <div class="events__block_wrapper">
+            <div class="events__block">
+            <div class="block_header">
+                PRIVATE EVENTS
+            </div>
+            <div class="events__block_inner">
+                <div class="events__block_item"><img src="/images/events_left-img.png" class="events__block_image"></div>
+                <div class="events__block_item"><img src="/images/events_right-img.png" class="events__block_image"></div>
+            </div>
+            </div>
+            <div class="events_bottom">
+                For private events please call: +40 729 131 637/+40 726 458 782 or use the contact form.
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<div class="gallery">
+    <div class="gallery_item"><img src="/images/gallery_1.png" alt="" class="gallery_img"></div>
+    <div class="gallery_item"><img src="/images/gallery_2.png" alt="" class="gallery_img"></div>
+    <div class="gallery_item"><img src="/images/gallery_3.png" alt="" class="gallery_img"></div>
+    <div class="gallery_item"><img src="/images/gallery_4.png" alt="" class="gallery_img"></div>
+</div>
+
+<script src="/vendor/bootstrap/dist/js/bootstrap.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="/vendor/jquery/dist/jquery.js"></script>
+<script type="text/javascript" src="/vendor/slick-carousel/slick/slick.js"></script>
 </body>
 </html>
