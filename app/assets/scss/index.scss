@@ -5,7 +5,7 @@
 
 body {
   margin: 0;
-  font-family: 'Open Sans', sans-serif!important;
+  font-family: 'Open Sans', sans-serif !important;
 }
 
 .hero {
@@ -210,6 +210,7 @@ body {
   display: flex;
   padding: 50px 0 70px;
   overflow: hidden;
+
   &__block {
     display: flex;
     align-items: center;
@@ -217,6 +218,7 @@ body {
     @media screen and ($max-md) {
       flex-wrap: wrap;
     }
+
     &_wrapper {
       text-align: center;
     }
@@ -252,6 +254,90 @@ body {
   }
 }
 
+.menu {
+  padding: 100px 0;
+
+  &__block {
+    text-align: center;
+    max-width: 565px;
+    width: 100%;
+    margin: 0 auto;
+
+    &_inner {
+      font-family: 'Banny Round', sans-serif;
+    }
+  }
+
+  &__links {
+    display: flex;
+    justify-content: center;
+    max-width: 840px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 25px 20px;
+    @media screen and ($max-sm) {
+      flex-wrap: wrap;
+    }
+
+    &_item {
+      text-align: center;
+      width: 120px;
+      height: 50px;
+      padding: 10px;
+      color: black;
+      text-decoration: none;
+      border-right: 1px solid rgba(51, 51, 51, 0.2);
+      transition-duration: 0.3s;
+      margin: 0 auto;
+      @media screen and ($max-sm) {
+        border-right: none;
+        border-bottom: 3px double rgba(51, 51, 51, 0.2);
+      }
+
+      &:last-child {
+        border: none;
+        @media screen and ($max-sm) {
+          border-bottom: 3px double rgba(51, 51, 51, 0.2);
+        }
+      }
+
+      &:hover {
+        text-decoration: none;
+        color: black;
+        font-size: 18px;
+      }
+    }
+  }
+
+  &__positions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 25px 5px;
+
+    &_item {
+      display: flex;
+      flex-wrap: wrap;
+      max-width: 360px;
+      width: 100%;
+      min-height: 66px;
+      margin: 0 auto;
+      padding-bottom: 20px;
+
+      &-title, &-price {
+        font-weight: bold;
+        font-size: 18px;
+        padding: 0 5px;
+      }
+
+      &-description {
+        font-weight: 300;
+        padding: 0 5px;
+      }
+    }
+  }
+}
+
 .events {
   background-image: url("../images/events_bg.png");
   background-position: 100% center;
@@ -270,17 +356,19 @@ body {
 
   &__block {
 
-    &_item{
+    &_item {
       flex: 0 0 50%;
-      @media screen and ($max-md){
+      @media screen and ($max-md) {
         flex: 0 0 100%;
       }
     }
+
     &_inner {
       display: flex;
       justify-content: center;
       flex-wrap: wrap;
     }
+
     &_image {
       max-width: 600px;
       width: 100%;
@@ -288,22 +376,107 @@ body {
   }
 }
 
-.gallery{
+.gallery {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   margin: 0 auto;
 
-  &_img{
+  &_img {
     width: 100%;
   }
-  &_item{
+
+  &_item {
     flex: 0 0 25%;
-    @media screen and ($max-sm){
+    @media screen and ($max-sm) {
       flex: 0 0 50%;
     }
-    @media screen and ($max-xxs){
+    @media screen and ($max-xxs) {
       flex: 0 0 100%;
+    }
+  }
+}
+
+.contact-form {
+  padding: 100px 0;
+  text-align: center;
+
+  &__block {
+    justify-content: center;
+
+    &_form {
+      display: flex;
+      flex-direction: column;
+
+      &-bottom {
+        display: flex;
+        justify-content: center;
+        @media screen and ($max-md) {
+          flex-wrap: wrap-reverse;
+        }
+      }
+
+      &-input {
+        display: flex;
+      }
+    }
+
+    &_title {
+      max-width: 565px;
+      width: 100%;
+      margin: 0 auto;
+      justify-content: center;
+    }
+  }
+
+  &__input {
+    max-width: 420px;
+    width: 100%;
+    margin: 5px;
+  }
+
+  &__textarea {
+    max-width: 1280px;
+    width: 99%;
+    height: 120px;
+    background-color: #E5E5E5;
+    border-radius: 5px;
+    border: none;
+    margin: 5px;
+    padding: 15px 20px;
+  }
+
+  &__button {
+    max-width: 640px;
+    width: 100%;
+    flex: 0 0 50%;
+    @media screen and ($max-md) {
+      flex: 0 0 100%
+    }
+  }
+
+  .fa-envelope, .fa-phone,
+  .fa-map-marker-alt {
+    color: #E8C300;
+    padding: 3px;
+  }
+
+  &__contacts {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex: 0 0 50%;
+    font-size: 12px;
+    max-width: 640px;
+    width: 100%;
+    padding: 5px;
+    @media screen and ($max-md) {
+      flex: 0 0 100%
+    }
+
+    &_item {
+      padding: 10px 5px;
+      margin: 0 auto;
     }
   }
 }
