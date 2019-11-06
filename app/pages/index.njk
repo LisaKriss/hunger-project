@@ -7,6 +7,7 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ "/vendor/bootstrap/dist/css/bootstrap.min.css" | assetLink }}" type="text/css">
+    <link rel="stylesheet" type="text/css" href="{{"/vendor/aos/dist/aos.css" | assetLink}}">
     <link rel="stylesheet" type="text/css" href="{{ "/vendor/slick-carousel/slick/slick.css" | assetLink }}"/>
     <link rel="stylesheet" type="text/css" href="{{ "/vendor/slick-carousel/slick/slick-theme.css" | assetLink }}"/>
 </head>
@@ -14,7 +15,7 @@
 <section class="hero">
     <div class="container">
         <div class="hero__block">
-            <div class="hero__block_main">
+            <div data-aos="zoom-in" class="hero__block_main">
                 <div class="hero__block_main_subtitle">RESTAURANT</div>
                 <div class="hero__block_main_title">HUNGRY PEOPLE</div>
                 <img src="/images/yellow_line.svg" alt="" class="block_line">
@@ -26,7 +27,7 @@
                     <img src="/images/hero_down-btn.svg" alt="" class="hero__button-down_icon">
                 </a>
             </div>
-            <div class="hero__block_icons">
+            <div data-aos="fade-left" class="hero__block_icons">
                 <a href="#" class="hero__icons_facebook"><img src="/images/facebook_icon.svg" alt=""></a>
                 <a href="#" class="hero__icons_twitter"><img src="/images/twitter_icon.svg" alt=""></a>
                 <a href="#" class="hero__icons_instagram"><img src="/images/instagram_icon.svg" alt=""></a>
@@ -37,7 +38,7 @@
 <section class="about-us">
     <div class="container">
         <div class="about-us__block">
-            <div class="block__info">
+            <div data-aos="zoom-in" class="block__info">
                 <div class="block__info_title">
                     ABOUT US
                 </div>
@@ -52,7 +53,7 @@
                     Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.
                 </div>
             </div>
-            <img src="/images/about-us_img.png" alt="" class="block__image">
+            <img data-aos="fade-left" data-aos-duration="700" src="/images/about-us_img.png" alt="" class="block__image">
         </div>
     </div>
 </section>
@@ -63,7 +64,7 @@
                 OUR TEAM
             </div>
             <div class="masterchef__block">
-                <div class="block__info">
+                <div data-aos="zoom-in" class="block__info">
                     <div class="block__info_title">
                         MASTERCHEF
                     </div>
@@ -80,7 +81,7 @@
                         Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.
                     </div>
                 </div>
-                <img src="/images/master-chef_img.png" alt="" class="block__image">
+                <img data-aos="fade-right" data-aos-duration="700" src="/images/master-chef_img.png" alt="" class="block__image">
             </div>
         </div>
     </div>
@@ -89,7 +90,7 @@
     <div class="container">
         <div class="booking-form__block_wrapper">
             <div class="booking-form__block">
-                <div class="block__info">
+                <div data-aos="zoom-in" class="block__info">
                     <div class="block__info_title">
                         BOOK A TABLE
                     </div>
@@ -117,7 +118,7 @@
                         <span>BOOK NOW</span>
                     </div>
                 </div>
-                <img src="/images/booking-form_img.png" class="block__image">
+                <img data-aos="fade-left" data-aos-duration="700" src="/images/booking-form_img.png" class="block__image">
             </div>
             <div class="booking-form_bottom">Mon - Fri: 8PM - 10PM, Sat - Sun: 8PM - 3AM, Phone: +40 729 131 637/+40 726
                 458 782
@@ -132,7 +133,7 @@
                 SPECIALTIES
             </div>
             <div class="specialties__block">
-                <div class="block__info">
+                <div data-aos="zoom-in" class="block__info">
                     <div class="block__info_title">
                         CHOCOLATE PANCAKES
                     </div>
@@ -149,7 +150,7 @@
                         Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.
                     </div>
                 </div>
-                <img src="/images/specialties_img.png" alt="" class="block__image">
+                <img data-aos="fade-right" data-aos-duration="700" src="/images/specialties_img.png" alt="" class="block__image">
             </div>
         </div>
     </div>
@@ -157,7 +158,7 @@
 <section class="menu">
     <div class="container">
         <div class="menu__block_wrapper">
-            <div class="menu__block">
+            <div data-aos="zoom-in" class="menu__block">
                 <div class="block__info_title">
                     DELICIOUS MENU
                 </div>
@@ -168,16 +169,16 @@
                 </div>
             </div>
             <div class="menu__block_inner">
-                <div class="menu__links">
-                    <a href="#" class="menu__links_item">SOUPE</a>
-                    <a href="#" class="menu__links_item">PIZZA</a>
-                    <a href="#" class="menu__links_item">PASTA</a>
-                    <a href="#" class="menu__links_item">DESERT</a>
-                    <a href="#" class="menu__links_item">WINE</a>
-                    <a href="#" class="menu__links_item">BEER</a>
-                    <a href="#" class="menu__links_item">DRINKS</a>
+                <div data-aos="zoom-in" data-aos-duration="700" class="menu__links">
+                    <a href="#" class="menu__links_item menu_soupe">SOUPE</a>
+                    <a href="#" class="menu__links_item menu_pizza">PIZZA</a>
+                    <a href="#" class="menu__links_item menu_pasta">PASTA</a>
+                    <a href="#" class="menu__links_item menu_desert">DESERT</a>
+                    <a href="#" class="menu__links_item menu_wine">WINE</a>
+                    <a href="#" class="menu__links_item menu_beer">BEER</a>
+                    <a href="#" class="menu__links_item menu_drinks">DRINKS</a>
                 </div>
-                <div class="menu__positions">
+                <div data-aos="fade-down" class="menu__positions">
                     {% for item in hunger.menu %}
                         <div class="menu__positions_item">
                             <div class="menu__positions_item-title">{{ item.title }}</div>
@@ -198,7 +199,7 @@
                 <div class="block_header">
                     PRIVATE EVENTS
                 </div>
-                <div class="events__block_inner">
+                <div data-aos="zoom-in" data-aos-duration="700" class="events__block_inner">
                     <div class="events__block_item"><img src="/images/events_left-img.png" class="events__block_image">
                     </div>
                     <div class="events__block_item"><img src="/images/events_right-img.png" class="events__block_image">
@@ -221,7 +222,7 @@
 <section class="contact-form">
     <div class="container">
         <div class="contact-form__block">
-            <div class="contact-form__block_title">
+            <div data-aos="zoom-in" class="contact-form__block_title">
                 <div class="block__info_title">
                     CONTACT
                 </div>
@@ -231,7 +232,7 @@
                     tempor magna.
                 </div>
             </div>
-            <div class="contact-form__block_form">
+            <div data-aos="fade-up" data-aos-duration="700" class="contact-form__block_form">
                 <div class="contact-form__block_form-input">
                     <input type="text" class="block__info_form_input contact-form__input" placeholder="Name">
                     <input type="email" class="block__info_form_input contact-form__input" placeholder="Email">
@@ -271,10 +272,10 @@
         </div>
     </div>
 </section>
-
 <script src="/vendor/bootstrap/dist/js/bootstrap.min.js" type="text/javascript"></script>
 <script type="text/javascript" src="/vendor/jquery/dist/jquery.js"></script>
-<script type="text/javascript" src="/vendor/slick-carousel/slick/slick.js"></script>
+<script type="text/javascript" src="/vendor/aos/dist/aos.js"></script>
 <script src="https://kit.fontawesome.com/c7ee930246.js" crossorigin="anonymous"></script>
+<script src="/js/index.js" type="text/javascript"></script>
 </body>
 </html>
